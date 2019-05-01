@@ -1,0 +1,199 @@
+{
+  "Description": {
+    "Cost": 889200,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Sprite",
+    "Id": "chassisdef_sprite-1",
+    "Name": "Sprite",
+    "Details": "",
+    "Icon": "uixTxrIcon_cataphract"
+  },
+  "MovementCapDefID": "movedef_cataphract_CTF-1X",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_cataphract",
+  "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
+  "PrefabBase": "cataphract",
+  "Tonnage": 15,
+  "InitialTonnage": 0.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 7718000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 8,
+  "MeleeInstability": 4,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 15,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 15,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+	    {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+	  ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 30,
+      "MaxRearArmor": 15,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+		{
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 15,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+	    {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+	  ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 30,
+      "MaxRearArmor": 15,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "Sprite-1",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Missile Boat",
+  "YangsThoughts": ""
+}
